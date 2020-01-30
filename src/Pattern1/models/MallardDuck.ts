@@ -10,7 +10,7 @@ export class MallardDuck extends Duck {
         this.flyBehaviour = new FlyWithWings();
     }
 
-    public display() {
+    public display(): void {
         console.log("I`m a real Mallard duck");
     }
 }

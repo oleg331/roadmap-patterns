@@ -9,7 +9,7 @@ export class ModelDuck extends Duck {
         this.quackBehaviour = new Quack();
     }
 
-    public display() {
+    public display(): void {
         console.log("I`m a model duck");
     }
 }

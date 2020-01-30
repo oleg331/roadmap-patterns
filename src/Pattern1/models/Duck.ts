@@ -7,23 +7,23 @@ export abstract class Duck {
 
     public abstract display(): void;
 
-    public performFly() {
+    public performFly(): void {
         this.flyBehaviour.fly();
     }
 
-    public performQuack() {
+    public performQuack(): void {
         this.quackBehaviour.quack();
     }
 
-    public setFlyBehaviour(fb: FlyBehaviour) {
+    public setFlyBehaviour(fb: FlyBehaviour): void {
         this.flyBehaviour = fb;
     }
 
-    public setQuackBehaviour(qb: QuackBehaviour) {
+    public setQuackBehaviour(qb: QuackBehaviour): void {
         this.quackBehaviour = qb;
     }
 
-    public swim() {
+    public swim(): void {
         console.log("All ducks float, even decoys");
     }
 }
