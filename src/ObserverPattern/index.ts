@@ -2,6 +2,9 @@ import CurrentConditionsDisplay from "./CurrentConditionsDisplay";
 import WeatherData from "./WeatherData";
 
 export const ExecuteObserverPattern = () => {
+    console.log('');
+    console.log('Observer pattern:');
+
     let weatherData: WeatherData = new WeatherData();
     let currentConditionDisplay: CurrentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
     
