@@ -1,6 +1,6 @@
 import { Duck } from "./Duck";
-import { Quack } from "../behaviours/Quack";
-import { FlyWithWings } from "../behaviours/Fly";
+import { FlyWithWings } from "../behaviours/Fly/FlyWithWings";
+import { Quack } from "../behaviours/Quack/Quack";
 
 export class MallardDuck extends Duck {
     constructor() {
