@@ -1,3 +1,3 @@
-import { ExecutePattern1 } from "./Pattern1";
+import { ExecuteStrategyPattern } from "./StrategyPattern";
 
-ExecutePattern1();
+ExecuteStrategyPattern();

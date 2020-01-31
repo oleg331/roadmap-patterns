@@ -1,7 +1,7 @@
 import { Duck, MallardDuck, ModelDuck } from "./models";
 import { FlyRocketPowered } from "./behaviours/Fly";
 
-export const ExecutePattern1 = () => {
+export const ExecuteStrategyPattern = () => {
     const mallard: Duck = new MallardDuck();
     mallard.performQuack();
     mallard.performFly();
