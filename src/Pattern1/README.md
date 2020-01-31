@@ -1,0 +1,1 @@
+![Pattern execution](./scheme.png)
